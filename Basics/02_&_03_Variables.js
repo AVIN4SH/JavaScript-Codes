@@ -1,3 +1,14 @@
+//* Example of variable declarations:
+
+var name = "John"; // Global Scope
+let age = 21; // Block Scope
+const gender = "male"; // Block Scope & Immutable
+
+// Printing to Console
+console.log(name);
+console.log(age);
+console.log(gender);
+
 /*
 ! Variables in JavaScript:
     - They are used to store data
@@ -19,11 +30,6 @@
     - var: can be redeclared & also be updated
     - let: cannot be redeclared but can be updated
     - const: neither be redeclared nor be updated
+    
+    - Important: The value stored in a const variable cannot be reassigned, but the contents of objects or arrays declared with const can still be modified.
 */
-//* Example of variable declarations:
-
-var name = "John"; // Global Scope
-let age = 21; // Block Scope
-const gender = "male"; // Block Scope & Immutable
-
-//* Important: The value stored in a const variable cannot be reassigned, but the contents of objects or arrays declared with const can still be modified.
