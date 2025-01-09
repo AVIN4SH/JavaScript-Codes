@@ -41,10 +41,10 @@ for (let i = 1; i <= n; i++) {
 }
 console.log("Sum of First", n, "Natural Numbers is:", sum, "\n");
 
-// ! for-in loop:
+// ! for-in loop: (loops through keys of an object)
 // Demonstration of for-in Loop:
 console.log(
-  "\n🚀 Program to Demonstrate for-in loop: (used to iterate through keys in object)"
+  "\n🚀 Program to Demonstrate for-in loop: (used to iterate through keys in an object)"
 );
 let obj = {
   john: 90,
@@ -53,20 +53,18 @@ let obj = {
   sam: 93,
 };
 for (let x in obj) {
-  // x here refers to key inside object
-  // to access value, we need to do: objectName[key]
+  // x refers to a key in the object
+  // to access the value, use: objectName[key]
   console.log("Marks of", x, "are:", obj[x]);
 }
 
-// ! for-of loop:
+// ! for-of loop: (loops through values of an iterable object (e.g., array or string))
 // Demonstration of for-of Loop:
-// this requires object to be iterable in case we want to use this on object
-// (i.e; its should be array or string)
 console.log(
-  "\n🚀 Program to Demonstrate for-of loop: (used to iterate through values in Arrays/Strings)"
+  "\n🚀 Program to Demonstrate for-of loop: (used to iterate through values in arrays or strings)"
 );
 let str = "JavaScript";
 for (let chars of str) {
-  // x here refers to value inside string or array
+  // chars refers to values in the string or array
   console.log("Values: ", chars);
 }
